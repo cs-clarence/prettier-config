@@ -1,0 +1,15 @@
+{
+  "name": "@rencedm112/prettier-config",
+  "version": "1.0.0",
+  "description": "An opinionated prettier config",
+  "main": ".prettierrc.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Clarence Manuel",
+  "license": "ISC"
+}

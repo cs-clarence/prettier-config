@@ -1,0 +1,41 @@
+{
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": false,
+  "useTabs": false,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "arrowParens": "always",
+  "vueIndentScriptAndStyle": false,
+  "embeddedLanguageFormatting": "auto",
+  "requirePragma": false,
+  "insertPragma": false,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.gohtml",
+      "options": { "parser": "html" }
+    },
+    {
+      "files": "*.gojson",
+      "options": { "parser": "json" }
+    },
+    {
+      "files": "*.goyaml",
+      "options": { "parser": "yaml" }
+    },
+    {
+      "files": "*.goyml",
+      "options": { "parser": "yaml" }
+    },
+    {
+      "files": "*.gomd",
+      "options": { "parser": "markdown" }
+    },
+    {
+      "files": "*.gojson5",
+      "options": { "parser": "json5" }
+    }
+  ]
+}
