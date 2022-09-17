@@ -36,6 +36,17 @@
     {
       "files": "*.gojson5",
       "options": { "parser": "json5" }
+    },
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte",
+        "svelteStrictMode": true,
+        "svelteSortOrder": "options-styles-scripts-markup",
+        "svelteAllowShorthand": false,
+        "svelteBracketNewLine": true,
+        "svelteIndentScriptAndStyle": true
+      }
     }
   ]
 }
