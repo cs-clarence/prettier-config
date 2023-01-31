@@ -18,6 +18,7 @@ module.exports = {
   requirePragma: false,
   insertPragma: false,
   endOfLine: "lf",
+  pluginSearchDirs: ["."],
   overrides: [
     {
       files: "*.gohtml",
