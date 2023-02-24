@@ -1,17 +1,10 @@
 {
   "name": "@rencedm112/prettier-config",
-  "version": "2.1.1",
+  "version": "3.1.1",
   "private": false,
   "type": "commonjs",
   "description": "An opinionated prettier config",
-  "main": ".prettierrc.js",
-  "module": ".prettierrc.mjs",
-  "exports": {
-    ".": {
-      "import": "./.prettierrc.mjs",
-      "require": "./.prettierrc.js"
-    }
-  },
+  "main": ".prettierrc.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
