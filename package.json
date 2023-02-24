@@ -1,9 +1,17 @@
 {
   "name": "@rencedm112/prettier-config",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "private": false,
+  "type": "commonjs",
   "description": "An opinionated prettier config",
-  "main": ".prettierrc.cjs",
+  "main": ".prettierrc.js",
+  "module": ".prettierrc.mjs",
+  "exports": {
+    ".": {
+      "import": "./.prettierrc.mjs",
+      "require": "./.prettierrc.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +20,8 @@
     "config"
   ],
   "author": "Clarence Manuel",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
 }
